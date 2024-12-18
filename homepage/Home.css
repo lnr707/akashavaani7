@@ -1,0 +1,179 @@
+*{
+    align-items: center;
+    margin: 0;
+
+}
+body{
+    background: #222;
+}
+
+.Top{
+    transition-timing-function: ease-in;
+}
+p{
+    background: white;
+}
+h1{
+    color: aliceblue;
+    text-size-adjust: 20px;
+}
+.Slogan{
+    background: #222;
+    color: aliceblue;
+}
+
+/* .Logo-container {
+    align-items: center;
+    justify-content:center ;
+
+}
+.Logo{
+    background: white;
+    width: 1760px;
+    height: 400px;
+    margin: 10px;
+}
+
+.Logo-img{
+    
+    background-color: aqua;
+    height: 370px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(LOGO.png);
+    
+} */
+
+nav{
+    position: relative;
+    width: 1230px;
+    height: 50px;
+    background: #222;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: 0 23px;
+    z-index: 1;
+}
+
+nav span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(45deg, #194b4f,#33fffc);
+    border-radius: 10px;
+    transition: 0.2s;
+
+}
+
+nav a:nth-child(1):hover~span{
+    left: 0px;
+}
+nav a:nth-child(2):hover~span{
+    left: 130px;
+}
+nav a:nth-child(3):hover~span{
+    left: 275px;
+}
+nav a:nth-child(4):hover~span{
+    left: 380px;
+}
+nav a:nth-child(5):hover~span{
+    left: 470px;
+}
+nav a:nth-child(6):hover~span{
+    left: 560px;
+}
+nav a:nth-child(7):hover~span{
+    left: 650px;
+}
+nav a:nth-child(8):hover~span{
+    left: 740px;
+}
+nav a:nth-child(9):hover~span{
+    left: 830px;
+}
+nav a:nth-child(10):hover~span{
+    left: 920px;
+}
+nav a:nth-child(11):hover~span{
+    left: 1010px;
+}
+nav a:nth-child(12):hover~span{
+    left: 1100px;
+}
+
+
+.container {
+    display: flex;
+    justify-content:center ;
+
+}
+
+.card{
+    background: white;
+    width: 300px;
+    margin: 10px;
+
+}
+
+.card-image{
+    background-color: aqua;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.article1{
+    background-image: url(article1.jpg);
+}
+.card p{
+    padding: 10px;
+}
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    margin: 10px 80px;
+    text-decoration: none;
+}
+
+.article2{
+    background-image: url(mb.webp);
+}
+.article3{
+    background-image: url(article3.jpg);
+}
+.article4{
+    background-image: url(article4.jpg);
+}
+.article5{
+    background-image: url(article5.jpg);
+}
+.article6{
+    background-image: url(article6.jpg);
+}
+.article7{
+    background-image: url(article7.jpg);
+}
+.article8{
+    background-image: url(article8.jpg);
+}
+.article9{
+    background-image: url(gamechanger.jpg);
+}
+.article10{
+    background-image: url(article10.webp);
+}
